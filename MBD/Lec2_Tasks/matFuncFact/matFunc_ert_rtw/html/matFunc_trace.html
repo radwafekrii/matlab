@@ -1,0 +1,31 @@
+<HTML><HEAD><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><TITLE>Traceability Report for matFunc</TITLE><LINK rel="stylesheet" type="text/css" href="rtwreport.css" /><STYLE type="text/css">TABLE { border-style: outset; border-width: 1px; width: 100% } P { margin-top: 0; margin-bottom: 0 } PRE { margin: 0 }</STYLE><SCRIPT type="text/javascript" language="JavaScript" src="slwebview.js"></SCRIPT>
+<SCRIPT type="text/javascript" language="JavaScript" src="id_mapping.js"></SCRIPT>
+
+<SCRIPT language="JavaScript" type="text/javascript"> 
+<!--
+function rtwTraceHilite(file,ext,ln) { 
+    function loc_hilite(file,ext,ln) { 
+        if (top.rtwMainReloadNoPanel) top.rtwMainReloadNoPanel(file+"."+ext+":"+ln); 
+        else window.location = file+"_"+ext+".html#"+ln; 
+    } 
+    var webviewFrame = top.document.getElementById('rtw_webviewMidFrame');
+    if (webviewFrame) {
+       loc_hilite(file,ext,ln);
+       return;
+    } else {
+        if (top && top.rtwreport_document_frame) 
+            top.rtwreport_document_frame.location.href = file+"_"+ext+".html#"+ln; 
+    } 
+}
+//-->
+</SCRIPT></HEAD><BODY ONLOAD="try {if (top) {if (top.rtwPageOnLoad) top.rtwPageOnLoad('rtwIdTraceability'); else local_onload();}} catch(err) {};"><DIV class="title" id="title"><H1>Traceability Report for matFunc</H1>
+<P align="right"><A style="text-decoration: none;" title="Generates a XLS file that contains a traceability matrix" href="matlab:RTW.TraceInfoBase.htmlExportTraceLaunch('matFunc')"><BUTTON name="MATLAB_link">Generate Traceability Matrix</BUTTON></A></P>
+<DIV class="toc" id="toc"><H3>Table of Contents</H3><OL><LI><A href="#href_untraceable">Eliminated / Virtual Blocks</A></LI><LI><A href="#href_traceable">Traceable Simulink Blocks / Stateflow Objects / MATLAB Functions</A><UL class="toc_systems" id="toc_systems"><LI><A href="#href_sys0">matFunc</A></LI><LI><A href="#href_sys1">matFunc/MATLAB Function</A></LI></UL></LI></OL></DIV></DIV><DIV class="contents" id="contents"><DIV class="section1" id="sec_eliminated_virtual"><H3><A id="href_untraceable">Eliminated / Virtual Blocks</A></H3><P>No eliminated or virtual blocks found.</P></DIV><DIV class="section1" id="sec_traceable"><H3><A id="href_traceable">Traceable Simulink Blocks / Stateflow Objects / MATLAB Functions</A></H3><DIV class="section2" id="sec_traceable_1"><H4>Root system: <A id="href_sys0"><a href="matlab:coder.internal.code2model('matFunc')" name="code2model">matFunc</a></A></H4><TABLE class="AltRow" cellspacing="0"><TR><TH>Object Name</TH><TH>Code Location</TH></TR><TR class="even"><TD><a href="matlab:coder.internal.code2model('matFunc:6')" name="code2model"><font color="#117755"><i>&lt;Root&gt;/In1</i></font></a></TD><TD><A href="javascript:rtwTraceHilite('matFunc','c','35');">matFunc.c:35</A>, <A href="javascript:rtwTraceHilite('matFunc','c','37');">37</A><BR /><A href="javascript:rtwTraceHilite('matFunc','h','37');">matFunc.h:37</A></TD></TR><TR class="odd"><TD><a href="matlab:coder.internal.code2model('matFunc:1')" name="code2model"><font color="#117755"><i>&lt;Root&gt;/MATLAB Function</i></font></a></TD><TD><A href="javascript:rtwTraceHilite('matFunc','c','34');">matFunc.c:34</A>, <A href="javascript:rtwTraceHilite('matFunc','c','37');">37</A>, <A href="javascript:rtwTraceHilite('matFunc','c','51');">51</A></TD></TR><TR class="even"><TD><a href="matlab:coder.internal.code2model('matFunc:7')" name="code2model"><font color="#117755"><i>&lt;Root&gt;/Out1</i></font></a></TD><TD><A href="javascript:rtwTraceHilite('matFunc','h','42');">matFunc.h:42</A></TD></TR></TABLE></DIV><DIV class="section2" id="sec_traceable_2"><H4>MATLAB Function: <A id="href_sys1"><a href="matlab:coder.internal.code2model('matFunc:1')" name="code2model">matFunc/MATLAB Function</a></A></H4><TABLE class="eml"><TR><TH></TH><TH>Script</TH><TH>Code Location</TH></TR>
+<TR class="d0"><TD><a href="matlab:coder.internal.code2model('matFunc:1:1:1','matFunc:1')" name="code2model" class="code2model">1</a></TD><TD><PRE>function factorial = fcn(num)</PRE></TD><TD></TD></TR>
+<TR class="d1"><TD><a href="matlab:coder.internal.code2model('matFunc:1:1:2','matFunc:1')" name="code2model" class="code2model">2</a></TD><TD><PRE>temp=1;</PRE></TD><TD><A href="javascript:rtwTraceHilite('matFunc','c','40');">matFunc.c:40</A></TD></TR>
+<TR class="d0"><TD><a href="matlab:coder.internal.code2model('matFunc:1:1:3','matFunc:1')" name="code2model" class="code2model">3</a></TD><TD><PRE>while(num&gt;=1)</PRE></TD><TD><A href="javascript:rtwTraceHilite('matFunc','c','43');">matFunc.c:43</A></TD></TR>
+<TR class="d1"><TD><a href="matlab:coder.internal.code2model('matFunc:1:1:4','matFunc:1')" name="code2model" class="code2model">4</a></TD><TD><PRE>    temp=temp*num;</PRE></TD><TD><A href="javascript:rtwTraceHilite('matFunc','c','44');">matFunc.c:44</A></TD></TR>
+<TR class="d0"><TD><a href="matlab:coder.internal.code2model('matFunc:1:1:5','matFunc:1')" name="code2model" class="code2model">5</a></TD><TD><PRE>    num=num-1;</PRE></TD><TD><A href="javascript:rtwTraceHilite('matFunc','c','47');">matFunc.c:47</A></TD></TR>
+<TR class="d1"><TD><a href="matlab:coder.internal.code2model('matFunc:1:1:6','matFunc:1')" name="code2model" class="code2model">6</a></TD><TD><PRE>end</PRE></TD><TD></TD></TR>
+<TR class="d0"><TD><a href="matlab:coder.internal.code2model('matFunc:1:1:7','matFunc:1')" name="code2model" class="code2model">7</a></TD><TD><PRE>factorial = temp;</PRE></TD><TD><A href="javascript:rtwTraceHilite('matFunc','c','52');">matFunc.c:52</A></TD></TR>
+<TR class="d1"><TD><a href="matlab:coder.internal.code2model('matFunc:1:1:8','matFunc:1')" name="code2model" class="code2model">8</a></TD><TD><PRE>    </PRE></TD><TD></TD></TR></TABLE></DIV></DIV></DIV></BODY></HTML>
